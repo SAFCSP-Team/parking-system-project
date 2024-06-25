@@ -1,19 +1,22 @@
 # Parking System Project
 
 ### Objective
-
+Using the concepts of data structures and algorithms 101 to solve real problems using the array
 
 ### Problem
-Create a `parking system` that allows users to perform various operations such as
-**parkVehicle()**, **removeVehicle(int row, int col)** , **printParkedVehicles()** ,**isFull()** and **isEmpty()**.
+Create a `parking system` that can accommodate 100 vehicles for the employees in SAFCSP company to help the manager assign parking for each employee. The system allows to perform various operations such as **park()**, **remove()** ,**updeteParking()** ,**printParkedVehicles()** ,**isFull()** and **isEmpty()**.
+
+> Each employee has a name, ID, and Vehicle   
+ 
+  
 
 ### Implementation
-- Create `Parking` array of boolean with 3x3 dimensions.
-- Write a function `parkVehicle()` for finding the first available slot in the parking lot and marking it as occupied.
-- Write a function `removeVehicle()` that takes the row and column parameters to identify the slot from which the vehicle needs to be removed. It checks if the provided row and column values are within the valid range of the parking lot's dimensions. If the slot is valid and marked as **true**, the function sets the corresponding slot to **false** to indicate that the slot is now empty.
-- Write a function `printParkedVehicles()`
-- Write a function `isFull()`
-- Write a function `isEmpty()`
+- Create a `Parking` 2D array that can accommodate 100 vehicles.
+- Write a function `park()` for finding the parking lot's first slot and adding the employee.
+- Write a function `remove()` that takes the row and column parameters to identify the slot from which the vehicle needs to be removed. If the slot is valid and occupied the function removes the employee to indicate that the slot is now empty.
+- Write a function `printParkedVehicles()` to display the details of all the vehicles that are currently parked in the parking system. 
+- Write a function `isFull()` to determine if all the parking slots are currently filled with vehicles.
+- Write a function `isEmpty()` to determine if all the parking slots are currently empty.
 
 ``` java
 public class Main {
