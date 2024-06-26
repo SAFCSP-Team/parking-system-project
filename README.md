@@ -33,7 +33,7 @@ public class Main {
 
 }
 ```
-### Project required
+### Project Requirements
 - Complete the `Employee` class.
 - Complete the `ParkingSystem` class.
 - Write all required functions correctly.
