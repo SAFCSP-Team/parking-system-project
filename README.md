@@ -33,3 +33,8 @@ public class Main {
 
 }
 ```
+### Project required
+- Complete the `Employee` class.
+- Complete the `ParkingSystem` class.
+- Write all required functions correctly.
+- The code should run successfully.
