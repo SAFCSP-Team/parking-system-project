@@ -35,10 +35,6 @@ public class ParkingSystem {
 ```
 ### Qualification to pass
 - [ ] The code should run successfully.
-- [ ] 
-
- 
- Complete the `Employee` class.
-- Complete the `ParkingSystem` class.
-- Write all required functions correctly.
-- The code should run successfully.
+- [ ] Write all required functions correctly.
+- [ ] Completely define the employee class.
+- [ ] Completely define  ParkingSystem class.
