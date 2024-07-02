@@ -12,9 +12,9 @@ The software development company has space for 100 cars, and the manager wants t
 
 ### Implementation
 - Create a `Parking` 2D array that can accommodate 100 vehicles.
-- Write a function `parkingAllocation()` for finding the first available slot in the parking and adding the employee.
-- Write a function `parkingDeallocation()` that takes the row and column parameters to identify the slot that needs to be removed. If the slot is valid and occupied, the function removes the employee information to indicate that the slot is now empty.
-- Write a function `parkingReallocation()` that takes the row and column parameters to identify the slot that needs to be updated. If the slot is valid and occupied, the function updates the  value with new employee information.
+- Write a function `allocation()` for finding the first available slot in the parking and adding the employee.
+- Write a function `deallocation()` that takes the row and column parameters to identify the slot that needs to be removed. If the slot is valid and occupied, the function removes the employee information and prints a message indicating that the slot is now empty.
+- Write a function `reallocation()` that takes the current slot and the new slot parameters. The function updates the position of the employee from the current slot to the new slot if the slot is valid and not occupied.
 - Write a function `printParkingList()` to display the employee information currently stored in the parking system. 
 - Write a function `isFull()` to determine if all the parking slots are currently filled.
 - Write a function `isEmpty()` to determine if all the parking slots are empty.
@@ -26,15 +26,19 @@ The software development company has space for 100 cars, and the manager wants t
   - Display all parked information after deletion and update.
 
 ``` java
-public class Main {
+public class ParkingSystem {
     public static void main(String[] args) {
       /* add your code here */
     }
 
 }
 ```
-### Project Requirements
-- Complete the `Employee` class.
+### Qualification to pass
+- [ ] The code should run successfully.
+- [ ] 
+
+ 
+ Complete the `Employee` class.
 - Complete the `ParkingSystem` class.
 - Write all required functions correctly.
 - The code should run successfully.
