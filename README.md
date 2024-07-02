@@ -1,10 +1,10 @@
 # Parking System Project
 
 ### Objective
-Using fundamental data structures and algorithms to solve real-world problems with arrays.
+Using fundamental data structures and algorithms, solve real-world problems with arrays.
 
 ### Problem
-The software development company has space for 100 cars, and the manager wants to create a `parking system` to assign each employee their own parking spot. The system allows to perform various operations such as **parkingAllocation()**, **parkingDeallocation()**, **parkingReallocation()**, **printParkingList()**, **isFull()**, and **isEmpty()**.
+A software development company has space for 100 cars, and the manager wants to create a `parking system` to assign each employee their own parking spot. The system allows to perform various operations such as **parkingAllocation()**, **parkingDeallocation()**, **parkingReallocation()**, **printParkingList()**, **isFull()**, and **isEmpty()**.
 
 > Each employee has a name, ID, and Vehicle.   
  
