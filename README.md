@@ -20,10 +20,10 @@ A software development company has space for 100 cars, and the manager wants to 
 - Write a function `isEmpty()` to determine if all the parking slots are empty.
 - In the main method:
   - Add 10 employee cars.
-  - Display all parked information.
+  - Display all parked slot information.
   - Delete one employee's parking spot.
   - Update the parking spot of the last employee.
-  - Display all parked information after deletion and update.
+  - Display all parked slot information after deletion and update.
 
 ``` java
 public class ParkingSystem {
