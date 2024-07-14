@@ -4,7 +4,7 @@
 Using fundamental data structures and algorithms, solve real-world problems with arrays.
 
 ### Problem
-A software development company has space for 100 cars, and the manager wants to create a `parking system` to assign each employee their own parking spot. The system allows to perform various operations such as **allocation()**, **deallocation()**, **reallocation()**, **printParkingList()**, **isFull()**, and **isEmpty()**.
+A software development company has space for 100 cars, and the manager wants to create a `parking system` to assign each employee their own parking slot. The system allows to perform various operations such as **allocation()**, **deallocation()**, **reallocation()**, **printParkingList()**, **isFull()**, and **isEmpty()**.
 
 > Each employee has a name, ID, and Vehicle.   
  
@@ -21,8 +21,8 @@ A software development company has space for 100 cars, and the manager wants to 
 - In the main method:
   - Add 10 employee cars.
   - Display all parked slot information.
-  - Delete one employee's parking spot.
-  - Update the parking spot of the last employee.
+  - Delete one employee's parking slot.
+  - Update the parking slot of the last employee.
   - Display all parked slot information after deletion and update.
 
 ``` java
