@@ -9,7 +9,5 @@ public class Employee {
            this.employeeVechile = employeeVechile;
            this.employeeId = employeeId;
         }
-        Employee(){ 
-        }
        }
 
