@@ -4,16 +4,16 @@
 Using fundamental data structures and algorithms, solve real-world problems with arrays.
 
 ### Problem
-A software development company has space for 100 cars, and the manager wants to create a **Parking System** to assign each employee their own parking slot. The system allows performing various operations such as `allocate()`, `deallocate()`, `reallocate()`, `printAll()`, `isFull()`, and `isEmpty()`.
+A software development company has a parking building with **two floors**, each floor having **5 rows** and **10 columns**. The manager wants to create a **Parking System** to assign each employee their own parking slot. The system allows various operations such as `allocate()`, `deallocate()`, `reallocate()`, `printAll()`, `isFull()`, and `isEmpty()`.
 
-> Each employee has a name, id, and vehicle.   
- 
-  
+> Each employee has a name, id, and vehicle.  
 
 ### Implementation
-- Create a `parking` 2D array that can accommodate 100 vehicles.
-- Write a function called `allocate()` to find the first available slot in the parking and add the employee.
-- Write a function `deallocate()` that takes the row and column parameters to identify the slot that needs to be removed. If the slot is valid and occupied, the function removes the employee information and prints a message indicating that the slot is now empty.
+
+- Create a `parking` 3D array that can accommodate 100 vehicles.
+> 2 Floors, 5 Rows, 10 Columns
+- Write a function `allocate()` to find the first available slot in the parking and add the employee.
+- Write a function `deallocate()` that takes the floor, row, and column parameters to identify the slot that needs to be removed. If the slot is valid and occupied, the function removes the employee information and prints a message indicating that the slot is now empty.
 - Write a function `reallocate()` that takes the current slot and the new slot parameters. The function updates the position of the employee from the current slot to the new slot if the slot is valid and not occupied.
 - Write a function `printAll()` to display the employees' information currently stored in the parking system. 
 - Write a function `isFull()` to determine if all the parking slots are currently filled.
